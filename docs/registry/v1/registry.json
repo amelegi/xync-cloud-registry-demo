@@ -5,7 +5,7 @@
     {
       "merchantId": "merchant_cloudcafe",
       "manifestUrl": "../../manifests/cloudcafe.json",
-      "status": "available"
+      "status": "disabled"
     },
     {
       "merchantId": "merchant_cloudpharmacy",
