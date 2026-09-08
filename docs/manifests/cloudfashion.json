@@ -1,0 +1,47 @@
+{
+  "manifestVersion": 1,
+  "identity": {
+    "id": "merchant_cloudfashion",
+    "slug": "cloudfashion",
+    "name": "CloudFashion",
+    "shortName": "CloudFashion",
+    "description": "A fictional cloud-discovered clothing merchant used only for Xync M9 registry testing.",
+    "category": "clothing",
+    "status": "available"
+  },
+  "branding": {
+    "placeholderLogo": "CF",
+    "brandColor": "#5F6470"
+  },
+  "integration": {
+    "level": "web_embed"
+  },
+  "account": {
+    "strategy": "none",
+    "connectExistingAccount": false,
+    "createUsingXync": false,
+    "requestedScopes": []
+  },
+  "availability": {
+    "enabled": true,
+    "regions": ["SA"]
+  },
+  "capabilities": {
+    "sso": false,
+    "transactions": false,
+    "loyalty": false,
+    "offers": true,
+    "inbox": false,
+    "notifications": false
+  },
+  "launch": {
+    "mode": "web",
+    "config": {
+      "entryUrl": "https://example.com/cloudfashion"
+    }
+  },
+  "security": {
+    "allowedDomains": ["example.com"],
+    "requiresConsent": false
+  }
+}
