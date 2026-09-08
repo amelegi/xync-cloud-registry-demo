@@ -1,0 +1,47 @@
+{
+  "manifestVersion": 1,
+  "identity": {
+    "id": "merchant_cloudpharmacy",
+    "slug": "cloudpharmacy",
+    "name": "CloudPharmacy",
+    "shortName": "CloudPharmacy",
+    "description": "A fictional cloud-discovered pharmacy used only for Xync M9 registry testing.",
+    "category": "pharmacies",
+    "status": "available"
+  },
+  "branding": {
+    "placeholderLogo": "CP",
+    "brandColor": "#4B7A67"
+  },
+  "integration": {
+    "level": "web_embed"
+  },
+  "account": {
+    "strategy": "none",
+    "connectExistingAccount": false,
+    "createUsingXync": false,
+    "requestedScopes": []
+  },
+  "availability": {
+    "enabled": true,
+    "regions": ["SA"]
+  },
+  "capabilities": {
+    "sso": false,
+    "transactions": false,
+    "loyalty": false,
+    "offers": true,
+    "inbox": false,
+    "notifications": false
+  },
+  "launch": {
+    "mode": "web",
+    "config": {
+      "entryUrl": "https://example.com/cloudpharmacy"
+    }
+  },
+  "security": {
+    "allowedDomains": ["example.com"],
+    "requiresConsent": false
+  }
+}
