@@ -1,0 +1,16 @@
+{
+  "registryVersion": 1,
+  "generatedAt": "2026-09-08T00:00:00Z",
+  "merchants": [
+    {
+      "merchantId": "merchant_cloudcafe",
+      "manifestUrl": "../manifests/cloudcafe.json",
+      "status": "available"
+    },
+    {
+      "merchantId": "merchant_cloudpharmacy",
+      "manifestUrl": "../manifests/cloudpharmacy.json",
+      "status": "available"
+    }
+  ]
+}
