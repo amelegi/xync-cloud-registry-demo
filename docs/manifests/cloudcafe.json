@@ -1,0 +1,47 @@
+{
+  "manifestVersion": 1,
+  "identity": {
+    "id": "merchant_cloudcafe",
+    "slug": "cloudcafe",
+    "name": "CloudCafe",
+    "shortName": "CloudCafe",
+    "description": "A fictional cloud-discovered cafe used only for Xync M9 registry testing.",
+    "category": "cafes",
+    "status": "available"
+  },
+  "branding": {
+    "placeholderLogo": "CC",
+    "brandColor": "#6B5B4D"
+  },
+  "integration": {
+    "level": "mini_app"
+  },
+  "account": {
+    "strategy": "merchant_link",
+    "connectExistingAccount": false,
+    "createUsingXync": true,
+    "requestedScopes": ["profile.basic", "profile.email", "transactions.write", "loyalty.read", "notifications.send"]
+  },
+  "availability": {
+    "enabled": true,
+    "regions": ["SA"]
+  },
+  "capabilities": {
+    "sso": true,
+    "transactions": true,
+    "loyalty": true,
+    "offers": true,
+    "inbox": true,
+    "notifications": true
+  },
+  "launch": {
+    "mode": "mini_app",
+    "config": {
+      "packageId": "xync.demo.cloudcafe.v1"
+    }
+  },
+  "security": {
+    "allowedDomains": [],
+    "requiresConsent": true
+  }
+}
