@@ -4,12 +4,12 @@
   "merchants": [
     {
       "merchantId": "merchant_cloudcafe",
-      "manifestUrl": "../manifests/cloudcafe.json",
+      "manifestUrl": "../../manifests/cloudcafe.json",
       "status": "available"
     },
     {
       "merchantId": "merchant_cloudpharmacy",
-      "manifestUrl": "../manifests/cloudpharmacy.json",
+      "manifestUrl": "../../manifests/cloudpharmacy.json",
       "status": "available"
     }
   ]
