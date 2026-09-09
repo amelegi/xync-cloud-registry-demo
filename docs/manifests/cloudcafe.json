@@ -37,7 +37,16 @@
   "launch": {
     "mode": "mini_app",
     "config": {
-      "packageId": "xync.demo.cloudcafe.v1"
+      "packageId": "xync.demo.cloudcafe",
+      "delivery": {
+        "mode": "remote_html",
+        "formatVersion": 1,
+        "runtimeApiVersion": 1,
+        "version": "1.0.0",
+        "packageUrl": "https://amelegi.github.io/xync-cloud-registry-demo/packages/cloudcafe/v1/index.html",
+        "sha256": "587cfb3fe73bfe6f4a2aeb1499f7172bc8703334cfbd5cf24396c09734abf705",
+        "status": "approved"
+      }
     }
   },
   "security": {
